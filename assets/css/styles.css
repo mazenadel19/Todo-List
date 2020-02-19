@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    background: linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+}
+
+#container {
+    margin: 100px auto;
+    max-width: 360px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    /* overflow: hidden; */
+}
+
+
+
+h1 {
+    background: rgb(41, 128, 185);
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.fa-plus {
+    float: right;
+}
+
+input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0); /*transparent border the same size as that when you hover over the inpuut to keep the list contents in its place  when i focus on the input*/
+    /* border: none; */
+    color: rgb(41, 128, 185);
+    padding: 13px 13px 13px 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+input:focus {
+    background-color: white;
+    border: 1px solid#0979BA;
+    box-shadow: 0 0 0 0.2rem  inset rgba(0, 123, 255, 0.25);
+}
+
+ul {
+    background-color: white;
+    list-style-type: none;
+}
+
+li {
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
+
+li span{
+    margin-right: 20px;
+    background-color: #e74c3c;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    height: 40px;
+    width: 0;
+    transition:  0.3s linear;
+    opacity: 0;
+}
+
+
+li:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
