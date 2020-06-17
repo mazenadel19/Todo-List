@@ -10,3 +10,5 @@ A simple todo list that allows you add tasks, remove tasks & cross finished task
 </ul>
 
 ##### Will require internet connection for font-awesome icons to appear.
+
+watch the project live here: https://rawcdn.githack.com/mazenadel19/Todo-List/0373e7ab1af5c43d47d6babacf1a4b865a31b64d/index.html 
